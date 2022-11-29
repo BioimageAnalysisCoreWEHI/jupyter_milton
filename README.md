@@ -15,14 +15,21 @@ Repo for notebooks and documents for jupyter to Milton job submission
     ```git clone https://github.com/BioimageAnalysisCoreWEHI/jupyter_milton```
  
     ```cd jupyter_milton```
-3. Create environment 
 
-   ```conda env create -f napari_milton.yml```
+------
+# THIS IS NO LONGER REQUIRED*
+##### *HOPEFULLY...
+##### Required environment is now on /Microscopy/BAC_Conda_envs/napari_milton 
+
+3. Create environment 
+    ```conda env create -f napari_milton.yml```
 4. Currently the pip release of napari_lattice has some bugs, reinstall from git:
    
    ```conda activate napari_milton```
 
    ```pip install --upgrade --force-reinstall git+https://github.com/bioimageanalysiscoreWEHI/napari_lattice.git```
+------------
+
 
 5. Optional convenience, create a small conda env for the jupyter notebooks (allows extra functionality)
 
