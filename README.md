@@ -5,7 +5,7 @@ Repo for notebooks and documents for jupyter to Milton job submission
 
 ## Setup
 1. Login to slurm_login node via rap
-   1. If this is your first time, type:
+   1. If this is your first time (test by typing ```conda``` and seeing if the command is found or not) type:
    
       ```module load anaconda3```
 
