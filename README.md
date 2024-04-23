@@ -41,7 +41,7 @@ Repo for notebooks and documents for jupyter to Milton job submission
 
    ```conda install ipykernel```
 
-   ```python -m ipykernel --user --on_demand --display-name "Python (on_demand)```
+   ```python -m ipykernel install --user --on_demand --display-name "Python (on_demand)```
 
    ```pip install read_roi```
 #### Done! You can quit out of slurm_login now
